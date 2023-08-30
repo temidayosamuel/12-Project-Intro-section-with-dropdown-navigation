@@ -1,0 +1,130 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  font-size: 16px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+
+.nav__item {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Epilogue";
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+  }
+
+  .nav__item {
+    border: 0;
+  }
+}
+
+.alldiv__2 {
+  display: flex;
+}
+
+.alldiv__3 {
+  display: flex;
+  margin-left: 750px;
+}
+
+.first--btn {
+  border: 3px solid hsl(0, 0%, 41%);
+  border-radius: 50px;
+  background-color: none;
+  height: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.first--span {
+  font-weight: 500;
+  color: hsl(0, 0%, 8%);
+  padding: 10px;
+}
+
+.first--p {
+  font-family: "Epilogue";
+  font-weight: 500;
+  margin-top: 50px;
+  margin-right: 70px;
+  cursor: pointer;
+}
+
+.first--h1 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  margin-left: 120px;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.sec--para {
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  font-family: "Epilogue";
+  font-weight: 500;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.sec--btn {
+  border: 0;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-family: "Epilogue";
+  font-weight: 500;
+  height: 50px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.sec--span {
+  padding: 10px;
+}
+
+.all--img {
+  display: flex;
+  height: 20px;
+  margin-left: 50px;
+}
+
+.img--div {
+  display: flex;
+  margin-left: 120px;
+}
+
+.hero--div {
+  width: 500px;
+}
+
+.overalldiv2 {
+  display: flex;
+}
+
+.overalldiv1 {
+  margin-right: 250px;
+}
